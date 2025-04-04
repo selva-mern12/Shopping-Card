@@ -1,0 +1,40 @@
+.price-tracker-container{
+    background-color: #fff;
+    width: 90%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #0000001a;
+}
+.price-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+
+}
+.price-moving-container{
+    background-color: #dee7f8;
+    padding: 10px;
+    padding-left: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+.price-moving-bg{
+    height: 12px;
+    border-radius: 10px;
+    width: 95%;
+    margin: 5px;
+    background-color: #21dfe9;
+}
+.price-moving{
+    height: 12px;
+    border-radius: 10px;
+    background-color: #2a4ce0;
+    transition: width 0.5s ease-in-out;
+}
