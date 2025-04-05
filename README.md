@@ -1,3 +1,4 @@
+```
 Shopping Cart App
 📌 Project Overview
 This is a simple React-based shopping cart application that allows users to:
@@ -53,3 +54,4 @@ shopping_cart/
 React.js – Frontend framework
 
 CSS – Styling
+```
