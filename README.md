@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+Shopping Cart App
+📌 Project Overview
+This is a simple React-based shopping cart application that allows users to:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Add products to the cart
 
-## Available Scripts
+Update product quantities
 
-In the project directory, you can run:
+Track progress towards earning a free gift when the cart subtotal reaches $1000
 
-### `npm start`
+The application is built using React’s built-in state management with useState and useEffect.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🚀 How to Run the Project
+1️⃣ Clone the Repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+git clone [<your-repo-link>](https://github.com/selva-mern12/Shopping-Card)
+cd shopping_cart
+2️⃣ Install Dependencies
 
-### `npm test`
+npm install
+3️⃣ Start the Development Server
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm start
+This will start the app on http://localhost:3000/
 
-### `npm run build`
+🏗️ Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+shopping_cart/
+│── node_modules/          # Installed dependencies
+│── public/                # Public assets
+│── src/                   # Main source code
+│   ├── components/        # UI Components
+│   │   ├── Cart/          # Shopping cart UI & logic
+│   │   ├── PriceTracker/  # Progress bar & free gift logic
+│   │   ├── Products/      # Product list & interactions
+│   ├── App.js             # Main application file
+│   ├── index.js           # React root render
+│   ├── index.css          # Global styles
+│── .gitignore             # Files to ignore in Git
+│── package.json           # Project dependencies & scripts
+│── README.md              # Project documentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🎯 Features Implemented
+✅ Product Listing – Displays available products
+✅ Add to Cart – Users can add items to their cart
+✅ Quantity Selector – Increase or decrease item count
+✅ Cart Management – Remove items from the cart
+✅ Progress Bar – Tracks how much is left to earn a free gift
+✅ Free Gift System – Automatically adds a free gift when subtotal ≥ $1000
+✅ State Management – Uses useState & useEffect
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔧 Technologies Used
+React.js – Frontend framework
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+CSS – Styling
